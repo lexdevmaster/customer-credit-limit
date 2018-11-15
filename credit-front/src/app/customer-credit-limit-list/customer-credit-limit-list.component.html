@@ -1,0 +1,6 @@
+<h2>Listagem de Clientes</h2>
+<ul>
+	<li *ngFor="let c of customerCreditLimit">Cliente:
+		{{c.customer_name}} - Limite de Crédito: R$ {{c.credit_limit}} -
+		Risco: {{c.risk_rating}} - Taxa de Juros: {{c.interest_tax}}%</li>
+</ul>

@@ -1,0 +1,13 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.lexpontes</groupId>
+  <artifactId>simple-credit</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>credit-app</name>
+  <description>Simple Credit Customer Register with Angular 5, Java and Spring</description>
+  <modules>
+  	<module>simple-credit-front</module>
+  	<module>simple-credit-app</module>
+  </modules>
+</project>
