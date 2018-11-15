@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+.box-border {
+	border-style: dashed;
+	border-radius: 6px;
+	border-width: 50%;
+}
+
+.box-inner {
+	display: inline-block
+}
+
+.box-inner-margin {
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+.box-base {
+	text-align: center;
+	width: 100%;
+}
+
+.box-inner-align-left {
+	text-align: left;
+}
+
+.button-color {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
