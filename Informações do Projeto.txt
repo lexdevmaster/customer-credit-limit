@@ -5,3 +5,5 @@ O que faltou: Botão Adicionar, na tela de cadastro, Javascript/Angular pra valid
 No back foi utilizado Java com Spring Boot, Rest API, JPA e Spring Data e como banco, optei por um banco InMemory (H2) com persistência em disco, mas basicamente mudar o banco seria feito no application.properties apontando o parâmetro spring.datasource.url para as configurações do motor de banco desejado e trocar o usuário e senha, caso sejam diferentes.
 
 Para o front, optei (e talvez não tenha sido boa escolha, devido ao prazo que usei para a atividade) por sair da zona de conforto e usar o Angular 5, que eu não havia tido contato ainda (mesmo Angular 2 a 4, tive pouco contato), usaria javascript nas validações, HTML5 responsivo e CSS pensando em responsividade.
+
+Para agilizar um pouco, usei o angular cli dentro do possível pois possuo conhecimento básico na ferramenta.
